@@ -1,0 +1,21 @@
+<p>
+  api works!
+
+
+</p>
+<table>
+  <tr>
+    <th>userId</th>
+    <th>
+      id
+    </th>
+    <th>title</th>
+    <th>completed</th>
+  </tr>
+    <tr *ngFor="let data1 of apiData;">
+      <td>{{data1.userId}}</td>
+      <td>{{data1.id}}</td>
+      <td>{{data1.title}}</td>
+      <td>{{data1.completed}}</td>
+    </tr>
+    </table>
